@@ -33,6 +33,10 @@ namespace CatTimer_WpfProject
 
             //初始化所有的定时器
             InitializeTimers();
+
+            // 设置默认的分钟数
+            string _newMinuteString = "25";
+            MinuteTextBlock.Text = _newMinuteString;
         }
 
 
